@@ -1,0 +1,12 @@
+.text-container {
+    background-color: #050709;
+}
+.container {
+    margin: 0 auto;
+}
+.header-title {
+    color: #FAFAFA;
+    font-weight: 800;
+    font-size: 32px;
+    text-align: center;
+}

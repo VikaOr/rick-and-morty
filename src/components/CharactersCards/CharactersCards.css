@@ -1,0 +1,23 @@
+
+.card-container {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.card-title {
+    color: #97cc4d;
+    font-weight: 800;
+    font-size: 32px;
+}
+.card-subtitle {
+    color: #e69449;
+    font-weight: 600;
+    font-size: 24px;
+}
+.card-text {
+    color: #050709;
+}
+.card-info {
+    text-align: left;
+}
