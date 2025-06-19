@@ -10,8 +10,10 @@ import CharactersCards from '../CharactersCards/CharactersCards';
 
 
 export default function Home(props) {
-    const [value, setValue] = useState("")
-    let persons = props.props
+    const [value, setValue] = useState("");
+    let persons = props.props;
+
+    const filteredPeople = persons.filter(n => n.name.includes(value));
     
     
   return (
@@ -27,7 +29,7 @@ export default function Home(props) {
 
     <div className='container--content'>
         
-      {persons.map((person) => <CharactersCards props = {person}/>)}
+      {filteredPeople.map((person) => <CharactersCards props = {person}/>)}
     </div>
     </>
     
